@@ -1,0 +1,144 @@
+
+
+.container{
+    font-family:cursive;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("packs-163497.jpg");
+   
+
+
+}
+
+.body{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    backdrop-filter: blur(5px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.center{
+
+    
+    height: 700px;
+    width: 600px;
+    border-radius: 40px;
+    /* box-shadow: 10px 10px 30px 10px grey; */
+    border: 2px solid grey;
+
+}
+
+
+.head{
+
+    height: 55px;
+    width: 100%;
+    font-size: 33px;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.2); 
+   border-radius: 60px;
+   padding-top: 13px;
+
+}
+
+.center label{
+
+    font-size: 25px;
+    padding-left: 30px;
+    width: 100px;
+    color:white;
+    background: rgba(0, 0, 0, 0.2); 
+}
+
+.center input{
+
+    margin-left: 30px;
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color:rgb(219, 219, 219);
+   
+
+}
+
+center input:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.center select{
+
+    height: 50px;
+    width: 320px;
+    padding-left: 10px;
+    margin-left: 30px;
+    border: 15px;
+    font-size:20px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color:rgb(219, 219, 219);
+
+}
+
+.center button{
+
+    
+    width: 620x;
+    font-size: 20px;
+    height: 55px;
+    width: 102px;
+
+
+}
+
+.center button:hover{
+
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+
+}
+
+.btn{
+  
+ 
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn button{
+
+  
+    border-radius: 30px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+
+}
+
+#totalTip{
+   
+    font-size: 50px;
+    background: rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+}
